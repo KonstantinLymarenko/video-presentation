@@ -1,0 +1,46 @@
+
+.container {
+  display: block;
+  align-self: center;
+  max-width: 1200px;
+  height: 100%;
+  padding-top: 40px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  
+}
+.presentation {
+  max-width: 1150px;
+}
+@media (orientation: landscape) {
+  body {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 470px;
+  }
+  .presentation {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 760px;
+  }
+  .presentation {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 769px) {
+  .container {
+    max-width: 100%;
+  }
+  .presentation {
+    width: 100%;
+  }
+}
